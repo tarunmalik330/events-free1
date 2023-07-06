@@ -96,13 +96,13 @@
 .mw-319 {
   max-width: 319px;
 }
-.m-tb{
+.m-tb {
   margin: 10px;
 }
-.pt-120{
+.pt-120 {
   padding-top: 120px;
 }
-.mb-60{
+.mb-60 {
   margin-bottom: 60px;
 }
 .white-space-nowrape {
@@ -141,7 +141,7 @@
 .pb_120 {
   padding-bottom: 120px;
 }
-.fs-16{
+.fs-16 {
   font-size: 16px;
 }
 .mt-24 {
@@ -170,7 +170,7 @@
 .fw-600 {
   font-weight: 600;
 }
-.box:hover .text-white-hover{
+.box:hover .text-white-hover {
   color: white;
 }
 .pb-10 {
@@ -354,7 +354,7 @@
 .box-2:hover {
   background: #2c49fe;
 }
-.box-2:hover .Info-hover{
+.box-2:hover .Info-hover {
   color: white;
 }
 .box-3 {
@@ -364,7 +364,7 @@
 .box-3:hover {
   background: #2c49fe;
 }
-.box-3:hover .help-hover{
+.box-3:hover .help-hover {
   color: white;
 }
 .ml_142 {
@@ -627,7 +627,7 @@ textarea::placeholder {
 .height {
   min-height: 435px;
 }
-.height-100{
+.height-100 {
   height: 100%;
 }
 .paragraph {
@@ -640,7 +640,7 @@ textarea::placeholder {
 .bg-color {
   background-color: black;
 }
-.display-inline-block{
+.display-inline-block {
   display: inline-block;
 }
 .show-more {
@@ -719,200 +719,196 @@ textarea::placeholder {
 
 /* <nav-reponsive> */
 .d-flex {
-    display: flex;
+  display: flex;
 }
 .d-none {
-    display: none;
+  display: none;
 }
 .align-items-center {
-    align-items: center;
+  align-items: center;
 }
 
 .justify-content-center {
-    justify-content: center;
+  justify-content: center;
 }
 
 .justify-content-end {
-    justify-content: end;
+  justify-content: end;
 }
 
 .relative {
-    position: relative;
+  position: relative;
 }
 
 .text-center {
-    text-align: center;
+  text-align: center;
 }
 
 .min-vh-100 {
-    min-height: 100vh;
+  min-height: 100vh;
 }
 
 .p-24 {
-    padding: 24px;
+  padding: 24px;
 }
 
 .py-24 {
-    padding-top: 24px;
-    padding-bottom: 24px;
+  padding-top: 24px;
+  padding-bottom: 24px;
 }
 
 .py-8 {
-    padding-top: 8px;
-    padding-bottom: 8px;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .mb-24 {
-    margin-bottom: 24px;
+  margin-bottom: 24px;
 }
- article {
-    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
+article {
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.1);
 }
-
 
 .cardBox {
-    border-width: 0px solid #FFFFFF;
-    border-radius: 20px;
-    padding: 20px;
+  border-width: 0px solid #ffffff;
+  border-radius: 20px;
+  padding: 20px;
 }
 
 .bg-blue {
-    background: #2C49FEBD;
+  background: #2c49febd;
 }
 
 .cardBtn.btnFill {
-    padding: 20px 20px;
-    border: 2px solid transparent;
-    border-radius: 150px;
-    background-color: white;
-    color: #2C49FE;
+  padding: 20px 20px;
+  border: 2px solid transparent;
+  border-radius: 150px;
+  background-color: white;
+  color: #2c49fe;
 }
 
 /* we should use here class and root for these kinds of task! */
 article h2 {
-    font-family: 'Work Sans', sans-serif;
- article:hover .iconBoxContainer {
+  font-family: "Work Sans", sans-serif;
+  article:hover .iconBoxContainer {
     fill: white;
-}
+  }
 }
 
 .flex-row {
-    flex-direction: row;
+  flex-direction: row;
 }
 
 .flex-wrap {
-    flex-wrap: wrap;
+  flex-wrap: wrap;
 }
 
-@media (min-width:576px) {
-    .col-sm-6 {
-        width: 50%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
+@media (min-width: 576px) {
+  .col-sm-6 {
+    width: 50%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 
-    .col-sm-10 {
-        width: 83.33%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
+  .col-sm-10 {
+    width: 83.33%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 
-    .w-sm-50 {
-        width: 50%;
-    }
+  .w-sm-50 {
+    width: 50%;
+  }
 
-    .card {
-        position: relative;
-    }
+  .card {
+    position: relative;
+  }
 
-    .card::after {
-        content: "";
-        position: absolute;
-        width: 100%;
-        height: 3px;
-        top: 50%;
-        left: 0;
-        background-color: white;
-        transform: translateY(-50%);
-    }
+  .card::after {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    top: 50%;
+    left: 0;
+    background-color: white;
+    transform: translateY(-50%);
+  }
 
-    .card::before {
-        content: "";
-        position: absolute;
-        height: 100%;
-        width: 3px;
-        top: 0;
-        left: 50%;
-        background-color: white;
-        transform: translateX(-50%);
-    }
-
+  .card::before {
+    content: "";
+    position: absolute;
+    height: 100%;
+    width: 3px;
+    top: 0;
+    left: 50%;
+    background-color: white;
+    transform: translateX(-50%);
+  }
 }
 
-@media (min-width:768px) {
-article:hover .iconBoxContainer {
-        padding-left: 12px;
-        padding-right: 12px;
-    }
+@media (min-width: 768px) {
+  article:hover .iconBoxContainer {
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 
-    .w-md-33 {
-        width: 33.33%;
-    }
+  .w-md-33 {
+    width: 33.33%;
+  }
 
-    .col-md-9 {
-        width: 75%;
-        padding-left: 12px;
-        padding-right: 12px;
-    }
+  .col-md-9 {
+    width: 75%;
+    padding-left: 12px;
+    padding-right: 12px;
+  }
 
-    .card::before {
-        content: unset;
-    }
+  .card::before {
+    content: unset;
+  }
 
-    .card::after {
-        content: unset;
-    }
+  .card::after {
+    content: unset;
+  }
 
-    .border-md-both {
-        border-left: 2px solid white;
-        border-right: 2px solid white;
-    }
+  .border-md-both {
+    border-left: 2px solid white;
+    border-right: 2px solid white;
+  }
 }
 
-@media (min-width:992px) {
-article:hover .iconBoxContainer {
-        padding-right: 12px;
-    }
+@media (min-width: 992px) {
+  article:hover .iconBoxContainer {
+    padding-right: 12px;
+  }
 
-    .w-lg-25 {
-        width: 25%;
-    }
+  .w-lg-25 {
+    width: 25%;
+  }
 
-    .mb-lg-0 {
-        margin-bottom: 0;
-    }
+  .mb-lg-0 {
+    margin-bottom: 0;
+  }
 
-    .justify-content-lg-end {
-        justify-content: end;
-    }
+  .justify-content-lg-end {
+    justify-content: end;
+  }
 
-    .cardBox {
-        border-width: 0px solid #FFFFFF;
-        border-radius: 150px;
-        padding: 20px;
-    }
+  .cardBox {
+    border-width: 0px solid #ffffff;
+    border-radius: 150px;
+    padding: 20px;
+  }
 
-
-    .border-lg-right {
-        border-right: 2px solid white;
-    }
-
+  .border-lg-right {
+    border-right: 2px solid white;
+  }
 }
-.text-white{
-    color: #FFFFFF;
+.text-white {
+  color: #ffffff;
 }
-.mr-24{
-    margin-right: 24px;
+.mr-24 {
+  margin-right: 24px;
 }
 @media (min-width: 576px) {
   .pageLogo > span {
@@ -959,7 +955,7 @@ article:hover .iconBoxContainer {
     justify-content: space-between;
     cursor: pointer;
   }
-  .position-fixed-lg{
+  .position-fixed-lg {
     z-index: 1;
     position: fixed;
     right: 0px;
@@ -1041,7 +1037,7 @@ article:hover .iconBoxContainer {
   .pb-md-0 {
     padding-bottom: 0;
   }
-  .justify_contact_center_md{
+  .justify_contact_center_md {
     justify-content: center;
   }
 }
@@ -1114,7 +1110,7 @@ article:hover .iconBoxContainer {
   .padding-lg {
     padding: 20px 40px;
   }
-  .justify_contact_center_lg{
+  .justify_contact_center_lg {
     justify-content: none;
   }
 }
